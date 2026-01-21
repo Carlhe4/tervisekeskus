@@ -11,6 +11,9 @@ export function Header() {
                     <Link className="hover:text-slate-900" href="/uldinfo">
                         Üldinfo
                     </Link>
+                    <Link className="hover:text-slate-900" href="/teenused">
+                        Teenused
+                    </Link>
                     <Link className="hover:text-slate-900" href="/kontakt">
                         Kontakt
                     </Link>

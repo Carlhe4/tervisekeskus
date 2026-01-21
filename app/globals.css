@@ -16,6 +16,10 @@ html, body {
   height: 100%;
 }
 
+html {
+  font-size: 13px;
+}
+
 body {
   background: rgb(var(--bg));
   color: rgb(var(--text));
@@ -25,8 +29,8 @@ body {
 .container-page {
   max-width: 72rem;           /* ~max-w-6xl */
   margin: 0 auto;
-  padding-left: 1.5rem;       /* px-6 */
-  padding-right: 1.5rem;
+  padding-left: 1.25rem;      /* px-5 */
+  padding-right: 1.25rem;
 }
 
 .card {
