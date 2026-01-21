@@ -1,8 +1,8 @@
 export function Footer() {
     return (
-        <footer className="border-t border-slate-200">
-            <div className="container-page py-8 text-sm text-slate-500">
-                © {new Date().getFullYear()} Võsu Tervisekeskus
+        <footer className="mt-auto bg-slate-950">
+            <div className="container-page py-6 text-center text-sm text-white">
+                {new Date().getFullYear()} Võsu Tervisekeskus
             </div>
         </footer>
     );
