@@ -5,7 +5,7 @@ export function Header() {
         <header className="border-b border-slate-200 bg-white">
             <div className="container-page flex items-center justify-between py-5">
                 <Link href="/" className="text-sm font-semibold tracking-[0.18em]">
-                    VÕSU TERVISEKESKUS
+                    VÕSU PEREARSTIKESKUS
                 </Link>
                 <nav className="flex items-center gap-6 text-sm text-slate-600">
                     <Link className="hover:text-slate-900" href="/uldinfo">

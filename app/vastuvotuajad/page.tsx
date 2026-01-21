@@ -7,6 +7,10 @@ export default function Page() {
           <h1 className="text-3xl font-light tracking-wide">
             Vastuvõtuajad
           </h1>
+          <p className="max-w-2xl text-slate-600">
+            Broneerimiseks helista {CONTACT_INFO.phone} või kirjuta
+            {` ${CONTACT_INFO.email}`}.
+          </p>
         </header>
   
         <section className="grid gap-8 md:grid-cols-2">

@@ -122,7 +122,7 @@ export default function Page() {
               Perearstil ja pereõdedel on õigus oma nimistu patsiendi
               terviseinfot vaadata digiloost.
             </li>
-            <li>Tervisekeskuses on lõunapaus 12.00–12.30.</li>
+            <li>Perearstikeskuses on lõunapaus 12.00–12.30.</li>
           </ul>
         </div>
       </section>
