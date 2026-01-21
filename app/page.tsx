@@ -11,12 +11,13 @@ export default function HomePage() {
 
         <p className="max-w-2xl text-slate-600">
           Arstiabi ja nõustamine. Vastuvõtt toimub eelregistreerimisega.
-          Kiireim viis aja broneerimiseks on veebipõhine broneerimine.
+          Aja broneerimiseks helista {CONTACT_INFO.phone} või kirjuta
+          {` ${CONTACT_INFO.email}`}.
         </p>
 
         <div className="flex flex-wrap gap-3 pt-2">
-          <ButtonLink href="/broneeri" variant="primary">
-            Broneeri aeg
+          <ButtonLink href="/kontakt" variant="primary">
+            Võta ühendust
           </ButtonLink>
 
           <ButtonLink href="/vastuvotuajad" variant="secondary">
@@ -47,7 +48,7 @@ export default function HomePage() {
 
           <InfoCard title="Vastuvõtt">
             Eelregistreerimisega. <br />
-            Broneeri aeg veebis või telefoni teel.
+            Broneeri aeg telefoni või e-posti teel.
           </InfoCard>
         </div>
       </section>
@@ -93,12 +94,12 @@ export default function HomePage() {
               Soovid aega broneerida?
             </h2>
             <p className="mt-1 text-slate-600">
-              Vali arst ja sobiv aeg – broneerimine võtab vähem kui minuti.
+              Broneerimine toimub telefoni või e-posti teel.
             </p>
           </div>
 
-          <ButtonLink href="/broneeri" variant="primary" className="w-fit">
-            Broneeri aeg
+          <ButtonLink href="/kontakt" variant="primary" className="w-fit">
+            Kontakt
           </ButtonLink>
         </div>
       </section>

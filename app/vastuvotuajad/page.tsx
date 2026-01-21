@@ -1,3 +1,5 @@
+import { CONTACT_INFO } from "../../lib/data";
+
 export default function Page() {
     return (
       <div className="space-y-10">
@@ -5,10 +7,6 @@ export default function Page() {
           <h1 className="text-3xl font-light tracking-wide">
             Vastuvõtuajad
           </h1>
-          <p className="max-w-2xl text-slate-600">
-            Allpool on toodud arstide vastuvõtuajad. Aja broneerimiseks palume kasutada
-            veebipõhist broneerimissüsteemi.
-          </p>
         </header>
   
         <section className="grid gap-8 md:grid-cols-2">

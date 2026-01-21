@@ -20,9 +20,6 @@ export function Header() {
                     <Link className="hover:text-slate-900" href="/vastuvotuajad">
                         Vastuvõtuajad
                     </Link>
-                    <Link className="hover:text-slate-900" href="/broneeri">
-                        Broneeri
-                    </Link>
                 </nav>
             </div>
         </header>
