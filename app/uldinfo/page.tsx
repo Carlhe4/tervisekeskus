@@ -141,33 +141,6 @@ export default function Page() {
             <li>Tervisetõendid on tasulised.</li>
           </ul>
         </div>
-
-        <div className="space-y-4">
-          <h2 className="text-base font-semibold tracking-[0.2em] text-slate-900 uppercase">
-            Füsioteraapia kabineti kodukord
-          </h2>
-          <div className="h-px w-16 bg-slate-200" />
-          <ul className="space-y-3 text-sm text-slate-700">
-            <li>
-              Füsioteraapia aega saab tühistada hiljemalt 1 tööpäev (24h) enne
-              kokkulepitud aega helistades E–R 8.00–16.00 telefonil 53603733 või
-              otse füsioterapeudile kodulehel märgitud telefonidel.
-            </li>
-            <li>
-              Oma tulematajätmisest palume teavitada ka siis, kui protseduurini on
-              jäänud vähem kui 24h.
-            </li>
-            <li>
-              Kui füsioteraapia protseduurile ei ilmuta ja meid sellest ei teavita,
-              on meil õigus tühistada järgmised protseduurid.
-            </li>
-            <li>
-              Kui jätad protseduurile tulemata ja meid sellest ei teavita, võib
-              perearst teenuse maksumuse välja nõuda vastavalt hinnakirjale.
-            </li>
-            <li>Füsioteraapia protseduurile tulles palume kanda sokke.</li>
-          </ul>
-        </div>
       </section>
     </div>
   );
